@@ -10,8 +10,8 @@ app.listen(port, () => {
     console.log(`${port}`);
 });
 
-const apiKey = process.env.IMBD_API_KEY;
-const tgToken = process.env.BOT_TOKEN;
+const apiKey = process.env."k_n95z6yw5";
+const tgToken = process.env."5377608641:AAFQk2DqgDUhQPMEopkL01RVcbZqHQNH2Zk";
 const bot = new Telegraf(tgToken);
 
 const botGithubLink = "https://github.com/aswinkr77/IMDB_Search_Bot-Telegram";
